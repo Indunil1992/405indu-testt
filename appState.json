@@ -1,0 +1,72 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "40031d98-698b-4c42-8c0d-68d3bd5ee938": {
+        "id": "40031d98-698b-4c42-8c0d-68d3bd5ee938",
+        "parent": null,
+        "name": "405indu-Testt.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "405indu-Testt.js",
+        "cursor": {
+          "lineNumber": 3,
+          "column": 50
+        },
+        "config": {
+          "runtime": "nodejs14.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "405induTestt"
+        },
+        "triggers": [],
+        "lastUpdated": 1627554956862
+      }
+    },
+    "openFiles": [
+      "40031d98-698b-4c42-8c0d-68d3bd5ee938"
+    ],
+    "currentFileId": "40031d98-698b-4c42-8c0d-68d3bd5ee938",
+    "resources": {},
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.9.3",
+    "projectName": "405indu-Testt",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1627555015905
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "405indu-testt",
+      "url": "https://github.com/Indunil1992/405indu-testt"
+    }
+  }
+}
