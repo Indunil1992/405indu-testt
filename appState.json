@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "405indu-Testt.js",
         "cursor": {
-          "lineNumber": 3,
-          "column": 50
+          "lineNumber": 1,
+          "column": 1
         },
         "config": {
           "runtime": "nodejs14.x",
@@ -24,13 +24,35 @@
         },
         "triggers": [],
         "lastUpdated": 1627554956862
+      },
+      "41a92999-e60a-4e26-adad-19d5ab2645c8": {
+        "id": "41a92999-e60a-4e26-adad-19d5ab2645c8",
+        "parent": null,
+        "name": "package.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "package.json"
       }
     },
     "openFiles": [
       "40031d98-698b-4c42-8c0d-68d3bd5ee938"
     ],
     "currentFileId": "40031d98-698b-4c42-8c0d-68d3bd5ee938",
-    "resources": {},
+    "resources": {
+      "snsTestSNS": {
+        "name": "snsTestSNS",
+        "type": "SNS",
+        "config": {
+          "topicMode": 1,
+          "topicName": "TestSNS",
+          "topicArn": "arn:aws:sns:us-east-1:318300609668:TestSNS",
+          "snsType": 0,
+          "subscriptions": []
+        }
+      }
+    },
     "customTemplate": {
       "syntax": "JSON",
       "overrideDefault": false,
@@ -48,7 +70,15 @@
       }
     ],
     "packageJSON": {
-      "dependencies": {}
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.817.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
     }
   },
   "PROJECT_META": {
@@ -60,7 +90,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1627555015905
+    "lastSave": 1627555101014
   },
   "VCS_STATE": {
     "provider": "GitHub",

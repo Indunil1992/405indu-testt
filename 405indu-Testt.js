@@ -1,4 +1,18 @@
+const AWS = require('aws-sdk');
+const sns = new AWS.SNS();
+
 exports.handler = async (event) => {
-    
-    return {"message": "Successfully executed hey"};
+    try {
+        let data = await sns.publish({
+            Message: `xx`,
+            TopicArn: "arn:aws:sns:us-east-1:318300609668:TestSNS",
+            MessageStructure: "String",
+            MessageAttributes: {}
+        }).promise();
+
+    } catch (err) {
+        // error handling goes here
+    };
+
+    return { "message": "Successfully executed hey" };
 };

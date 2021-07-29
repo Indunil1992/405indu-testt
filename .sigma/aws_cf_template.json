@@ -12,6 +12,10 @@
     }
   },
   "Outputs": {
+    "snsTestSNS": {
+      "Description": "ARN of SNS topic TestSNS",
+      "Value": "arn:aws:sns:us-east-1:318300609668:TestSNS"
+    },
     "405induTestt": {
       "Description": "ARN of Lambda function 405induTestt",
       "Value": {
@@ -80,7 +84,24 @@
               }
             }
           ]
-        }
+        },
+        "Policies": [
+          {
+            "PolicyName": "405induTesttPolicy",
+            "PolicyDocument": {
+              "Version": "2012-10-17",
+              "Statement": [
+                {
+                  "Effect": "Allow",
+                  "Action": [
+                    "sns:Publish"
+                  ],
+                  "Resource": "arn:aws:sns:us-east-1:318300609668:TestSNS"
+                }
+              ]
+            }
+          }
+        ]
       }
     }
   }
